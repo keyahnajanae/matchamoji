@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Match-a-moji</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Match-A-Moji</h1>
+        </header>
+
+        <section class="score-panel">
+        <ul class="smile">
+                <li><i class="far fa-smile-wink"></i></li>
+        		<li><i class="far fa-smile-wink"></i></li>
+                <li><i class="far fa-smile-wink"></i></li>
+                <li><i class="far fa-smile-wink"></i></li>
+                
+        	</ul> 
+       
+        	<span class="moves">0</span> Move(s)
+<br>
+            <div class="timer">
+            </div>
+
+            <div class="restart" onclick=startGame()>
+        		<i class="fas fa-redo-alt"></i>
+        	</div>
+        </section>
+
+        <ul class="deck" id="icon-deck">
+
+            <li class="icon" type="gem">
+                <i class="far fa-gem"></i>
+            </li>
+            <li class="icon" type="om">
+                <i class="fas fa-om"></i>
+            </li>
+            <li class="icon match" type="anchor">
+                <i class="fas fa-anchor"></i>
+            </li>
+            <li class="icon" type="mailchimp" >
+                <i class="fab fa-mailchimp"></i>
+            </li>
+            <li class="icon" type="yin-yang">
+                <i class="fas fa-yin-yang"></i>
+            </li>
+            <li class="icon " type="anchor">
+                <i class="fas fa-anchor"></i>
+            </li>
+            <li class="icon" type="angellist">
+                <i class="fab fa-angellist"></i>
+            </li>
+            <li class="icon" type="heart">
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="icon match" type="gem">
+                <i class="far fa-gem"></i>
+            </li>
+            <li class="icon" type="om">
+                <i class="fas fa-om"></i>
+            </li>
+            <li class="icon" type="sass">
+                <i class="fab fa-sass"></i>
+            </li>
+            <li class="icon" type="mailchimp">
+                <i class="fab fa-mailchimp"></i>
+            </li>
+            <li class="icon open show" type="angellist">
+                <i class="fab fa-angellist"></i>
+            </li>
+            <li class="icon" type="heart">
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="icon" type="sass">
+                <i class="fab fa-sass"></i>
+            </li>
+            <li class="icon" type="yin-yang">
+                <i class="fas fa-yin-yang"></i>
+            </li>
+        </ul>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Congratulations </h2>
+                <a class="close" href=# >×</a>
+                <div class="content-1">
+                    Good Job ! You did it. 
+                </div>
+                <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Smile:  <span id=smileRates></span></p>
+                </div>
+                <button id="play-again"onclick="playAgain()">
+                    Play again ? </a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
