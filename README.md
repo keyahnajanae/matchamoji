@@ -5,13 +5,7 @@
 
 USER STORIES
 
-User will come in contact with a screen that says ‘start’ and ‘How to Play’
-If user press “How to Play”, instructions on how to play game will pop up.
-In order to get rid of “How to Play”, user must click anywhere on the screen.
-Once user presses “Start” the game will begin and the accuracy timer will begin as well.
-The accuracy timer is counting how accurate the player is at turning over the cards correctly.
-When the player clicks the card, the card will turn over and the user must pick another card.
-If those two cards match, then they will disappear and add towards accuracy. If the cards don’t match, it’ll take away from the accuracy and the cards will flip back over until their matches are found. Once there are no more cards, if accuracy is higher than 35% then “CONGRATS ! YOU WON !” will display with accuracy score. If score is under 35% “Took you long enough ! Good Job!” will appear. Players presses on “Play Again” to return directly to the memory game or “Return Home” to return to the Start screen.
+Users will be prompted to click on one card and the card will flip over . The user will click on another card, hoping for the two icons to be a match. If the two icons are a match, the icons are locked in and no points are taken away from accuracy smiles :) If it isn't a match, points will be taken away, bringing down accuracy smileys and the icons will flip back over. Once all icons are matched , a congrats screen will appear with game stats and an option to play again . 
 
 #instructions
 
