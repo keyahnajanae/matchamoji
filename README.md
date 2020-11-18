@@ -3,9 +3,9 @@
 
 ![wireframe](https://0qwcaw.dm.files.1drv.com/y4mT0b6KPEuAeMzr7-pW_cI91o3NaSYjERVFAkTcKn8ehZoBEWP_Yga3wHYHHTRXRDkVg6naeL-BO0OLBuf6Xj7uCihn-zQgI2arsnpgYJN9kWdYGOJ-GQNYkTZmx_zd2fM-Lo5xJqmC763u6ZZ2zqclvrDVKVHxhhqRnCalIxJ6XBJ3kwySr6381xqiqQ_VCAfSf-Ah4Na8ZOZMFbgO0AvwA?width=514&height=660&cropmode=none)
 
-![How to Play]
+![Where to Play]
 
-Deployed link in your brower (https://keyahnajanae.github.io/matchamoji/)
+Deploy link in your brower (https://keyahnajanae.github.io/matchamoji/)
 
 ## Challenge ##
 
