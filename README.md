@@ -20,9 +20,13 @@ Match the cards in less time as possible. The more mistakes, the less accuracy y
 ## Code Behind Memory Game ##
 
 I used Vanilla Javascript to manipulate the DOM, altered part of the HTML and also styled the game with basic CSS.
+
     1.created a counter to count the number of moves made by player and timer to know the duration of a play
+    
     2.created a deck of cards that shuffles when game is refreshed
+    
     3. small CSS effects for when a card is matched and/or clicked
+    
     4. create a pop-up modal when player wins game
 
 
